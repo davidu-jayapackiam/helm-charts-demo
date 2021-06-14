@@ -1,0 +1,70 @@
+apiVersion: v1
+entries:
+  api:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-14T10:33:01.924683007Z"
+    description: A Helm chart for Kubernetes
+    digest: e0b3a32d283798c3f1b90c33b306e2158aac6252f155c464856472ed8df2b1ef
+    name: api
+    type: application
+    urls:
+    - https://davidu-jayapackiam.github.io/helm-charts-demo/api-0.1.0.tgz
+    version: 0.1.0
+  client:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-14T10:33:01.925273103Z"
+    description: A Helm chart for Kubernetes
+    digest: acbd50fc79357a4fa8cd2bbf74bca7db30ede38f49300e6c12d21fbb3aa9d79b
+    name: client
+    type: application
+    urls:
+    - https://davidu-jayapackiam.github.io/helm-charts-demo/client-0.1.0.tgz
+    version: 0.1.0
+  redis:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 6.2.4
+    created: "2021-06-14T10:33:01.93225225Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Open source, advanced key-value store. It is often referred to as
+      a data structure server since keys can contain strings, hashes, lists, sets
+      and sorted sets.
+    digest: 210582b22ae36868377baa84f8c1c9a24ecc02bfd5684c3fa7e1c88ec6c7e7b0
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    - http://redis.io/
+    urls:
+    - https://davidu-jayapackiam.github.io/helm-charts-demo/redis-14.4.0.tgz
+    version: 14.4.0
+  worker:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-14T10:33:01.933005644Z"
+    description: A Helm chart for Kubernetes
+    digest: b61f4e55697c569dd41bd174c99f7b272767a4f102ef51b2ab0e9c2669420e5d
+    name: worker
+    type: application
+    urls:
+    - https://davidu-jayapackiam.github.io/helm-charts-demo/worker-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-06-14T10:33:01.923815614Z"
